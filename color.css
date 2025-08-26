@@ -1,0 +1,95 @@
+/* Center the form vertically and horizontally */
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Form styling */
+.login-form {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title */
+.login-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Labels */
+.login-form label {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Inputs */
+.login-form input {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Input focus */
+.login-form input:focus {
+  box-shadow: 0 0 8px 2px #a29bfe;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Login button */
+.login-btn {
+  margin-top: 24px;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  background: #6c5ce7;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+.login-btn:hover {
+  background: #341f97;
+}
+
+/* Message text */
+.login-message {
+  margin-top: 16px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  color: #ffeaa7;
+}
+
+/* Footer styling */
+.login-footer {
+  margin-top: 40px;
+  font-size: 14px;
+  opacity: 0.8;
+  text-align: center;
+  font-style: italic;
+  user-select: none;
+}
